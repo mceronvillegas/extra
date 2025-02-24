@@ -48,3 +48,46 @@
     margin-right: 40px;
     text-align: justify;
 }
+
+.PROFILE {
+    padding-top: 30px;
+    border-bottom: 3px solid black;
+    width: 1110px;
+    margin-left: 80px;
+
+}
+
+.education {
+    background-color: white;
+    width: 100%;
+    padding-left: 125px;
+    padding-right: 80px;
+    
+}
+
+
+.education-container {
+    display: flex;
+}
+
+.education-element {
+    padding: 25px 25px 25px 0px;
+    width: 50%;
+    text-align: justify;
+}
+
+.border {
+    padding-left: 25px;
+    border-left: 3px solid black;
+}
+
+.education {
+    padding-bottom: 40px;
+    border-bottom: 3px solid black;
+    width: 1000px;
+    margin: 10px auto; /*centrar la linea*/
+    margin-right: 60px;
+    
+    
+    
+}
