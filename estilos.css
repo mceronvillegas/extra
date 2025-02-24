@@ -43,7 +43,7 @@ body {
 
 .PROFILE {
     padding-top: 30px;
-    border-bottom: 3px solid black;
+    border-bottom: 1px solid black;
     width: 1110px;
     margin-left: 80px;
 
@@ -83,6 +83,8 @@ body {
 
 .education-container {
     display: flex;
+    border-bottom: 1px solid black;
+    padding-bottom: 25px;
 }
 
 .education-element {
@@ -93,12 +95,13 @@ body {
 
 .border {
     padding-left: 25px;
-    border-left: 3px solid black;
+    border-left: 1px solid black;
+    
 }
 
 .education {
     padding-bottom: 40px;
-    border-bottom: 3px solid black;
+    
     width: 1000px;
     margin: 10px auto; /*centrar la linea*/
     margin-right: 60px;
@@ -128,7 +131,7 @@ body {
 
 .bordeo {
     padding-left: 35px;
-    border-left: 3px solid black;
+    border-left: 1px solid black;
     margin-left: 30px;
     
     
@@ -139,7 +142,7 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: sans-serif;
-    border-bottom: 3px solid black;
+    border-bottom: 1px solid black;
     margin-left: 80px;
     margin-right: 50px;
 
@@ -185,7 +188,7 @@ label {
     width: 0;
 }
 
-/* Ancho específico para cada habilidad */
+
 #python {
     width: 90%;
 }
@@ -237,7 +240,7 @@ label {
 
 .bord {
     padding-left: 35px;
-    border-left: 3px solid black;
+    border-left: 1px solid black;
     margin-left: 30px;
     
     
@@ -259,7 +262,7 @@ label {
 .projects2-container {
     display: flex;
     margin-right: 370px;
-    border-bottom: 3px solid black;
+    border-bottom: 1px solid black;
     padding-bottom: 25px;
     
     
@@ -279,11 +282,86 @@ label {
 
 .bor {
     padding-left: 35px;
-    border-left: 3px solid black;
+    border-left: 1px solid black;
     
     
     
 }
 
+.mi-seccion {
+    background-color: white;
+    padding: 10px ;
+    padding-left: 215px;
+    padding-right: 195px;
+    
+    
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    
+    
+    
+}
+
+.columna {
+    width: 50%;
+    padding-left: 10px;
+}
 
 
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px; 
+}
+
+.barra-nivel {
+    height: 10px;
+    background-color: black;
+    margin-top: 5px;
+}
+
+.certificacion {
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+
+
+
+p {
+    margin: 5px 0;
+}
+
+.linea-divisoria {
+    width: 1px; /* Ancho de la línea */
+    height: 100%; /* Altura de la línea (100% del contenedor) */
+    background-color: black; /* Color de la línea */
+    margin: 0 20px; /* Márgenes a los lados para separarla del contenido */
+}
+
+.heading {
+    padding-left: 215px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobbie {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
