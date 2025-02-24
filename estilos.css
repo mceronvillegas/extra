@@ -341,9 +341,9 @@ p {
 }
 
 .linea-divisoria {
-    width: 1px; /* Ancho de la línea */
+    width: 1px; 
     height: 100%; /* Altura de la línea (100% del contenedor) */
-    background-color: black; /* Color de la línea */
+    background-color: black; 
     margin: 0 20px; /* Márgenes a los lados para separarla del contenido */
 }
 
